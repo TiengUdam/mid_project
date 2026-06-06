@@ -286,11 +286,11 @@
                         <span class="fw-bold text-primary fs-5">${{ number_format($product->price, 2) }}</span>
 
                         {{-- ✅ Cart button — no modal, no event.stopPropagation needed --}}
-                        <button type="button"
+                        <!-- <button type="button"
                                 class="btn btn-cart"
                                 onclick="addToCart({{ $product->id }}, this)">
                             <i class="fas fa-cart-plus"></i>
-                        </button>
+                        </button> -->
                     </div>
                 </div>
             </div>
@@ -320,11 +320,11 @@
                                     {{ $product->description ?? 'Premium smartphone with high performance and elegant design.' }}
                                 </p>
                                 <div class="d-grid mt-5">
-                                    <button type="button"
+                                    <!-- <button type="button"
                                             class="btn btn-primary py-3 fw-bold rounded-3"
                                             onclick="addToCart({{ $product->id }}, this, true)">
                                         <i class="fas fa-shopping-cart me-2"></i> Add to Cart
-                                    </button>
+                                    </button> -->
                                 </div>
                             </div>
                         </div>
